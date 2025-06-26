@@ -2,53 +2,55 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
-import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
-import Badge from "@/components/atoms/Badge";
-import LessonCard from "@/components/molecules/LessonCard";
-import ProgressRing from "@/components/molecules/ProgressRing";
-import { SkeletonGrid, SquirrelLoading } from "@/components/organisms/LoadingStates";
-import { WonderlandEmpty } from "@/components/organisms/EmptyStates";
+import wisdomService from "@/services/api/wisdomService";
 import lessonService from "@/services/api/lessonService";
 import userService from "@/services/api/userService";
 import progressService from "@/services/api/progressService";
 import coachingService from "@/services/api/coachingService";
-
+import ApperIcon from "@/components/ApperIcon";
+import Progress from "@/components/pages/Progress";
+import Lessons from "@/components/pages/Lessons";
+import ProgressRing from "@/components/molecules/ProgressRing";
+import LessonCard from "@/components/molecules/LessonCard";
+import { WonderlandEmpty } from "@/components/organisms/EmptyStates";
+import { SkeletonGrid, SquirrelLoading } from "@/components/organisms/LoadingStates";
+import Badge from "@/components/atoms/Badge";
+import Button from "@/components/atoms/Button";
 
 const Home = () => {
   const navigate = useNavigate();
-  const [loading, setLoading] = useState(true);
+const [loading, setLoading] = useState(true);
   const [featuredLessons, setFeaturedLessons] = useState([]);
   const [user, setUser] = useState(null);
   const [userProgress, setUserProgress] = useState([]);
   const [upcomingSession, setUpcomingSession] = useState(null);
+  const [dailyWisdom, setDailyWisdom] = useState(null);
   const [stats, setStats] = useState({
     completedLessons: 0,
     totalPurchased: 0,
     currentStreak: 0,
     totalWatchTime: 0
   });
-
   useEffect(() => {
     loadHomeData();
   }, []);
 
-  const loadHomeData = async () => {
+const loadHomeData = async () => {
     setLoading(true);
     try {
-      const [featured, currentUser, coaching] = await Promise.all([
+      const [featured, currentUser, coaching, wisdom] = await Promise.all([
         lessonService.getFeatured(),
         userService.getCurrentUser(),
-        coachingService.getUpcoming()
+        coachingService.getUpcoming(),
+        wisdomService.getDailyQuote()
       ]);
-
       setFeaturedLessons(featured);
       setUser(currentUser);
+      setDailyWisdom(wisdom);
       
       if (coaching.length > 0) {
         setUpcomingSession(coaching[0]);
       }
-
       // Load user progress
       if (currentUser) {
         const progress = await progressService.getUserProgress(currentUser.Id);
@@ -96,8 +98,8 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen">
-{/* Hero Section */}
+<div className="min-h-screen">
+      {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary via-primary/90 to-secondary overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%239C92AC%22%20fill-opacity%3D%220.1%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20" />
         
@@ -144,8 +146,7 @@ const Home = () => {
                 <Button
                   variant="accent"
                   size="large"
-                  onClick={() => navigate('/lessons')}
-                  className="mb-8"
+                  onClick={() => navigate('/auth/login')}
                 >
                   Begin Your Journey
                 </Button>

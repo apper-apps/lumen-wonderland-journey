@@ -1,0 +1,212 @@
+[
+  {
+    "Id": 1,
+    "text": "The acorn doesn't worry about becoming an oak tree; it simply grows one ring at a time.",
+    "author": "The Squirrel Wrangler",
+    "category": "Growth"
+  },
+  {
+    "Id": 2,
+    "text": "In the labyrinth of life, every turn teaches us something new about ourselves.",
+    "author": "Stacy Braiuca",
+    "category": "Self-Discovery"
+  },
+  {
+    "Id": 3,
+    "text": "Like squirrels preparing for winter, we must gather wisdom before we need it.",
+    "author": "The Squirrel Wrangler",
+    "category": "Preparation"
+  },
+  {
+    "Id": 4,
+    "text": "Your consciousness is the garden; your thoughts are the seeds. Choose wisely what you plant.",
+    "author": "Stacy Braiuca",
+    "category": "Consciousness"
+  },
+  {
+    "Id": 5,
+    "text": "Connection isn't about having many friends; it's about having deep roots with a few.",
+    "author": "The Squirrel Wrangler",
+    "category": "Connection"
+  },
+  {
+    "Id": 6,
+    "text": "Transformation begins the moment you stop fighting who you are and start nurturing who you're becoming.",
+    "author": "Stacy Braiuca",
+    "category": "Transformation"
+  },
+  {
+    "Id": 7,
+    "text": "The strongest trees bend in the wind; the wisest minds adapt to change.",
+    "author": "The Squirrel Wrangler",
+    "category": "Adaptability"
+  },
+  {
+    "Id": 8,
+    "text": "Trust is like a nut buried in winter—it must be carefully placed and patiently tended.",
+    "author": "Stacy Braiuca",
+    "category": "Trust"
+  },
+  {
+    "Id": 9,
+    "text": "Every master was once a beginner who refused to give up.",
+    "author": "The Squirrel Wrangler",
+    "category": "Perseverance"
+  },
+  {
+    "Id": 10,
+    "text": "Communication is not about being heard; it's about creating understanding.",
+    "author": "Stacy Braiuca",
+    "category": "Communication"
+  },
+  {
+    "Id": 11,
+    "text": "Like autumn leaves, we must learn to let go gracefully to make room for new growth.",
+    "author": "The Squirrel Wrangler",
+    "category": "Letting Go"
+  },
+  {
+    "Id": 12,
+    "text": "Courage isn't the absence of fear; it's action in the presence of it.",
+    "author": "Stacy Braiuca",
+    "category": "Courage"
+  },
+  {
+    "Id": 13,
+    "text": "The path to wisdom is paved with questions, not answers.",
+    "author": "The Squirrel Wrangler",
+    "category": "Wisdom"
+  },
+  {
+    "Id": 14,
+    "text": "Your potential is like a seed in rich soil—it needs darkness before it can reach the light.",
+    "author": "Stacy Braiuca",
+    "category": "Potential"
+  },
+  {
+    "Id": 15,
+    "text": "Gratitude turns what we have into enough, and enough into abundance.",
+    "author": "The Squirrel Wrangler",
+    "category": "Gratitude"
+  },
+  {
+    "Id": 16,
+    "text": "Leadership is not about being the loudest in the forest; it's about helping others find their voice.",
+    "author": "Stacy Braiuca",
+    "category": "Leadership"
+  },
+  {
+    "Id": 17,
+    "text": "Every ending is a new beginning wearing a disguise.",
+    "author": "The Squirrel Wrangler",
+    "category": "New Beginnings"
+  },
+  {
+    "Id": 18,
+    "text": "Authenticity is the daily practice of letting go of who we think we're supposed to be.",
+    "author": "Stacy Braiuca",
+    "category": "Authenticity"
+  },
+  {
+    "Id": 19,
+    "text": "The quietest mind often holds the loudest truth.",
+    "author": "The Squirrel Wrangler",
+    "category": "Inner Peace"
+  },
+  {
+    "Id": 20,
+    "text": "Progress isn't about speed; it's about direction and consistency.",
+    "author": "Stacy Braiuca",
+    "category": "Progress"
+  },
+  {
+    "Id": 21,
+    "text": "Like rivers carve canyons, small daily actions create extraordinary results.",
+    "author": "The Squirrel Wrangler",
+    "category": "Consistency"
+  },
+  {
+    "Id": 22,
+    "text": "Vulnerability is not weakness; it's the birthplace of innovation and creativity.",
+    "author": "Stacy Braiuca",
+    "category": "Vulnerability"
+  },
+  {
+    "Id": 23,
+    "text": "The most beautiful gardens grow from the messiest compost.",
+    "author": "The Squirrel Wrangler",
+    "category": "Growth from Struggle"
+  },
+  {
+    "Id": 24,
+    "text": "Mindfulness is the art of being present in a world that constantly pulls us elsewhere.",
+    "author": "Stacy Braiuca",
+    "category": "Mindfulness"
+  },
+  {
+    "Id": 25,
+    "text": "Your story isn't defined by what happens to you, but by how you choose to respond.",
+    "author": "The Squirrel Wrangler",
+    "category": "Response"
+  },
+  {
+    "Id": 26,
+    "text": "Compassion begins with being gentle with yourself.",
+    "author": "Stacy Braiuca",
+    "category": "Self-Compassion"
+  },
+  {
+    "Id": 27,
+    "text": "The magic isn't in avoiding the storm; it's in learning to dance in the rain.",
+    "author": "The Squirrel Wrangler",
+    "category": "Resilience"
+  },
+  {
+    "Id": 28,
+    "text": "Innovation happens when curiosity meets courage at the edge of your comfort zone.",
+    "author": "Stacy Braiuca",
+    "category": "Innovation"
+  },
+  {
+    "Id": 29,
+    "text": "Balance isn't about standing still; it's about recovering quickly when life pushes you off center.",
+    "author": "The Squirrel Wrangler",
+    "category": "Balance"
+  },
+  {
+    "Id": 30,
+    "text": "The strongest foundations are built not in sunshine, but weathered through storms.",
+    "author": "Stacy Braiuca",
+    "category": "Strength"
+  },
+  {
+    "Id": 31,
+    "text": "Purpose isn't something you find; it's something you create through meaningful action.",
+    "author": "The Squirrel Wrangler",
+    "category": "Purpose"
+  },
+  {
+    "Id": 32,
+    "text": "Every expert was once a beginner who chose to keep going when it got difficult.",
+    "author": "Stacy Braiuca",
+    "category": "Expertise"
+  },
+  {
+    "Id": 33,
+    "text": "Peace isn't the absence of chaos; it's the ability to remain calm within it.",
+    "author": "The Squirrel Wrangler",
+    "category": "Peace"
+  },
+  {
+    "Id": 34,
+    "text": "The bridge between dreams and reality is built with daily disciplined action.",
+    "author": "Stacy Braiuca",
+    "category": "Dreams"
+  },
+  {
+    "Id": 35,
+    "text": "Like squirrels know every tree in their territory, know yourself completely before trying to change others.",
+    "author": "The Squirrel Wrangler",
+    "category": "Self-Knowledge"
+  }
+]
