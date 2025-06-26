@@ -1,9 +1,11 @@
-import Home from '@/components/pages/Home';
-import Lessons from '@/components/pages/Lessons';
-import Progress from '@/components/pages/Progress';
-import Coaching from '@/components/pages/Coaching';
-import Profile from '@/components/pages/Profile';
-import LessonDetail from '@/components/pages/LessonDetail';
+import React from "react";
+import Progress from "@/components/pages/Progress";
+import LessonDetail from "@/components/pages/LessonDetail";
+import Lessons from "@/components/pages/Lessons";
+import Coaching from "@/components/pages/Coaching";
+import Profile from "@/components/pages/Profile";
+import Home from "@/components/pages/Home";
+import GardenLabyrinth from "@/components/pages/GardenLabyrinth";
 
 export const routes = {
   home: {
@@ -40,13 +42,20 @@ export const routes = {
     path: '/profile',
     icon: 'User',
     component: Profile
-  },
+},
   lessonDetail: {
     id: 'lessonDetail',
     label: 'Lesson Detail',
     path: '/lessons/:id',
     icon: 'Play',
     component: LessonDetail
+  },
+  gardenLabyrinth: {
+    id: 'gardenLabyrinth',
+    label: 'Garden Labyrinth',
+    path: '/garden-labyrinth',
+    icon: 'Map',
+    component: GardenLabyrinth
   }
 };
 
