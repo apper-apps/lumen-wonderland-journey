@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "lessonId": "1",
+    "userId": "1",
+    "completionPercentage": 100,
+    "lastAccessed": "2024-01-14T15:30:00Z",
+    "bookmarks": [300, 1200, 2100],
+    "notes": "Powerful insights about inner squirrels",
+    "completedAt": "2024-01-12T14:45:00Z"
+  },
+  {
+    "Id": 2,
+    "lessonId": "2",
+    "userId": "1",
+    "completionPercentage": 75,
+    "lastAccessed": "2024-01-15T09:15:00Z",
+    "bookmarks": [450, 1800],
+    "notes": "The labyrinth metaphor is so helpful",
+    "completedAt": null
+  },
+  {
+    "Id": 3,
+    "lessonId": "3",
+    "userId": "1",
+    "completionPercentage": 30,
+    "lastAccessed": "2024-01-13T11:20:00Z",
+    "bookmarks": [600],
+    "notes": "Need to practice the release techniques more",
+    "completedAt": null
+  }
+]

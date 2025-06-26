@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 1,
+    "title": "Weekly Group Check-in",
+    "marcoPoloLink": "https://marcopolo.me/groups/wonderland-weekly",
+    "type": "group",
+    "schedule": "2024-01-20T18:00:00Z",
+    "description": "Join our weekly group session to share insights, ask questions, and connect with fellow journeyers.",
+    "maxParticipants": 12,
+    "currentParticipants": 8,
+    "thumbnail": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300&h=200&fit=crop"
+  },
+  {
+    "Id": 2,
+    "title": "One-on-One Deep Dive",
+    "marcoPoloLink": "https://marcopolo.me/sessions/stacy-private",
+    "type": "individual",
+    "schedule": "2024-01-22T14:00:00Z",
+    "description": "Personal coaching session with Stacy Braiuca for deep transformation work.",
+    "duration": 60,
+    "price": 150,
+    "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=200&fit=crop"
+  },
+  {
+    "Id": 3,
+    "title": "Big7 Breakthrough Session",
+    "marcoPoloLink": "https://marcopolo.me/groups/big7-breakthrough",
+    "type": "workshop",
+    "schedule": "2024-01-25T19:30:00Z",
+    "description": "Intensive workshop focusing on implementing all Big7 principles in your daily life.",
+    "maxParticipants": 20,
+    "currentParticipants": 15,
+    "thumbnail": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=200&fit=crop"
+  },
+  {
+    "Id": 4,
+    "title": "Morning Meditation Circle",
+    "marcoPoloLink": "https://marcopolo.me/groups/morning-meditation",
+    "type": "group",
+    "schedule": "2024-01-18T07:00:00Z",
+    "description": "Start your day with guided meditation and intention setting with the community.",
+    "maxParticipants": 25,
+    "currentParticipants": 18,
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=200&fit=crop"
+  }
+]

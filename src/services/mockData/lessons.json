@@ -1,0 +1,97 @@
+[
+  {
+    "Id": 1,
+    "title": "Understanding Your Inner Squirrels",
+    "description": "Discover the different aspects of your consciousness represented by character squirrels in this foundational lesson of the Big7 principles.",
+    "price": 29.99,
+    "content": {
+      "videoUrl": "https://example.com/video1",
+      "duration": 45,
+      "transcript": "Welcome to Understanding Your Inner Squirrels...",
+      "exercises": ["Self-reflection journal", "Squirrel identification worksheet"]
+    },
+    "category": "Foundation",
+    "duration": 45,
+    "featured": true,
+    "thumbnail": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=400&h=225&fit=crop",
+    "instructor": "Stacy Braiuca - The Squirrel Wrangler",
+    "level": "Beginner",
+    "tags": ["consciousness", "self-discovery", "big7"]
+  },
+  {
+    "Id": 2,
+    "title": "Navigating the Garden Labyrinth",
+    "description": "Explore the metaphorical Garden Labyrinth of your psyche and learn to find your way through life's complexities with grace and wisdom.",
+    "price": 39.99,
+    "content": {
+      "videoUrl": "https://example.com/video2",
+      "duration": 60,
+      "transcript": "The Garden Labyrinth represents...",
+      "exercises": ["Labyrinth meditation", "Path visualization"]
+    },
+    "category": "Transformation",
+    "duration": 60,
+    "featured": true,
+    "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=225&fit=crop",
+    "instructor": "Stacy Braiuca - The Squirrel Wrangler",
+    "level": "Intermediate",
+    "tags": ["transformation", "meditation", "inner-journey"]
+  },
+  {
+    "Id": 3,
+    "title": "Mental Emotional Release Techniques",
+    "description": "Learn powerful Mental Emotional Release® techniques to free yourself from limiting beliefs and emotional blockages.",
+    "price": 49.99,
+    "content": {
+      "videoUrl": "https://example.com/video3",
+      "duration": 75,
+      "transcript": "Mental Emotional Release is a powerful technique...",
+      "exercises": ["Emotion release practice", "Belief system audit"]
+    },
+    "category": "Healing",
+    "duration": 75,
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=225&fit=crop",
+    "instructor": "Stacy Braiuca - The Squirrel Wrangler",
+    "level": "Advanced",
+    "tags": ["healing", "emotional-release", "breakthrough"]
+  },
+  {
+    "Id": 4,
+    "title": "NLP for Personal Transformation",
+    "description": "Harness the power of Neuro-Linguistic Programming to rewire your thought patterns and create lasting positive change.",
+    "price": 59.99,
+    "content": {
+      "videoUrl": "https://example.com/video4",
+      "duration": 90,
+      "transcript": "Neuro-Linguistic Programming offers us...",
+      "exercises": ["Anchoring technique", "Reframing practice", "Future pacing"]
+    },
+    "category": "Transformation",
+    "duration": 90,
+    "featured": true,
+    "thumbnail": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=225&fit=crop",
+    "instructor": "Stacy Braiuca - The Squirrel Wrangler",
+    "level": "Intermediate",
+    "tags": ["nlp", "transformation", "mindset"]
+  },
+  {
+    "Id": 5,
+    "title": "Hypnosis for Deep Healing",
+    "description": "Experience the transformative power of hypnosis to access your subconscious mind and facilitate profound healing and growth.",
+    "price": 44.99,
+    "content": {
+      "videoUrl": "https://example.com/video5",
+      "duration": 55,
+      "transcript": "Hypnosis is a natural state of focused attention...",
+      "exercises": ["Self-hypnosis practice", "Healing visualization"]
+    },
+    "category": "Healing",
+    "duration": 55,
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=400&h=225&fit=crop",
+    "instructor": "Stacy Braiuca - The Squirrel Wrangler",
+    "level": "Beginner",
+    "tags": ["hypnosis", "healing", "subconscious"]
+  }
+]
