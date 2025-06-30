@@ -4,6 +4,7 @@ import LessonDetail from "@/components/pages/LessonDetail";
 import Lessons from "@/components/pages/Lessons";
 import Coaching from "@/components/pages/Coaching";
 import Profile from "@/components/pages/Profile";
+import ProfileSetupForm from "@/components/pages/ProfileSetupForm";
 import Home from "@/components/pages/Home";
 import GardenLabyrinth from "@/components/pages/GardenLabyrinth";
 
@@ -43,6 +44,13 @@ export const routes = {
     icon: 'User',
     component: Profile
 },
+  profileSetup: {
+    id: 'profileSetup',
+    label: 'Complete Profile',
+    path: '/profile-setup',
+    icon: 'UserPlus',
+    component: ProfileSetupForm
+  },
   lessonDetail: {
     id: 'lessonDetail',
     label: 'Lesson Detail',
